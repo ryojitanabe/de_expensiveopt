@@ -1,0 +1,1 @@
+-archive_rate '1.0' -de_cr '0.9' -de_sf '0.5' -de_strategy 'rand_to_pbest_1' -p_best_rate '0.05' -pop_size_rate '13.0' -subset_size_rate '0.0' -children_size_rate '0.0'
