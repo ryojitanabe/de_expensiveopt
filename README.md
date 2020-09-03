@@ -42,7 +42,7 @@ The above command just runs a DE with the worst improvement model and the hand-t
 $ python de_bbob.py -de_alg 'wi_de' -out_folder 'WI' -archive_rate '1.0' -de_cr '0.9' -de_sf '0.5' -de_strategy 'rand_to_pbest_1' -p_best_rate '0.05' -pop_size_rate '13.0' -subset_size_rate '0.0' -children_size_rate '0.0'
 ```
 
-The above command runs a DE with the worst improvement model and the hand-tuned parameters on all the 2-, 3-, 5-, 10-, 20-, 40-dimensional 24 BBOB test functions. The maximum number of function evaluations is 100 * dimensionality. Results are recorded into exdata/Syn.
+The above command runs a DE with the worst improvement model and the hand-tuned parameters on all the 2-, 3-, 5-, 10-, 20-, 40-dimensional 24 BBOB test functions. The maximum number of function evaluations is 100 * dimensionality. Results are recorded into exdata/Syn.  The COCO software needs to be installed before running a DE on the BBOB function set. For details, please see [the COCO website](https://github.com/numbbo/coco).
 
 ## Reproduce results presented in our PPSN2020 paper
 
